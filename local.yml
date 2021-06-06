@@ -1,6 +1,6 @@
 ---
 - name: install htop
-  hosts: localhost 
+  hosts: dev 
   become: true
   tasks:
     - name: install htop
