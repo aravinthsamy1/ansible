@@ -1,6 +1,6 @@
 ---
 - name: install htop
-  hosts: localhost
+  hosts: centos7
   tasks:
     - name: install htop
       yum:
