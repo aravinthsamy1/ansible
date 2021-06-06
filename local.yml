@@ -1,6 +1,7 @@
 ---
 - name: install htop
   hosts: localhost 
+  become: true
   tasks:
     - name: install htop
       yum:
